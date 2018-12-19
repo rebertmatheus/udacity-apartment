@@ -4,6 +4,8 @@ Starter project for the Udacity [VR Developer Nanodegree](http://udacity.com/vr)
 - Course: VR Scenes & Objects
 - Project: Build an Apartment
 
+> **Build**
+- This project was built for Android and change for IOS probably will need to changes.
 
 ### Versions Used
 - [Unity LTS Release 2017.4.4](https://unity3d.com/unity/qa/lts-releases?version=2017.4)

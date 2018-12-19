@@ -11,8 +11,11 @@ public class TriggerAnimation : MonoBehaviour
 	[Tooltip ("The name of the Animator trigger parameter")]
 	public string triggerName = "Globe";
 
+	private bool _isActive = false;
+
 	public void StartGlobeAnimation()
 	{
-		animator.SetTrigger(triggerName);
+		_isActive = !_isActive;
+		animator.SetBool(triggerName, _isActive);
 	}
 }
